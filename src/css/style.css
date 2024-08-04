@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    font-family: "Outfit", sans-serif;
+}
+
+body {
+    background-color: var(--main-bg);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* --------------- CARD --------------- */
+
+.card {
+    background-color: var(--card-bg);
+    width: 350px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+/* --------------- INFOS --------------- */
+
+.info {
+    width: 300px;
+}
+
+.info .image-equilibrium {
+    width: 300px;
+    border-radius: 10px;
+}
+
+/* --------------- INFO TEXT --------------- */
+
+.info-text {
+    margin-top: 20px;
+}
+
+.info-text h1 {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--white);
+}
+
+.info-text h1:hover {
+    color: var(--cyan);
+    cursor: pointer;
+}
+
+.info-text p {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    color: var(--soft-blue);
+}
+
+.info-nft {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.nft-value, .nft-countdown {
+    display: flex;
+}
+
+.nft-value p, .nft-countdown p {
+    margin-left: 10px;
+}
+
+.nft-value p {
+    color: var(--cyan);
+    font-weight: 400;
+}
+
+.nft-countdown p {
+    color: var(--soft-blue);
+    font-weight: 300;
+}
+
+/* --------------- INFO CRETOR --------------- */
+
+.info-creator {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-top: 1px solid var(--line);
+    padding-top: 15px;
+}
+
+.info-creator img {
+    width: 30px;
+    border: 1px solid var(--white);
+    border-radius: 50%;
+}
+
+.info-creator p {  
+    color: var(--soft-blue);
+    font-weight: 300;
+}
+
+.info-creator span {
+    color: var(--white);
+}
+
+.info-creator span:hover {
+    color: var(--cyan);
+    cursor: pointer;
+}
