@@ -32,5 +32,6 @@ Esse foi a resolução do desafio [NFT preview card component challenge do Front
 
 ## Autor
 
-- GitHub - [Davi Oliveira](https://github.com/itsdavss)
+- GitHub - [itsdavss](https://github.com/itsdavss)
+- Meu portfólio - [Davi Oliveira](https://itsdavss.github.io/portfolio-davi/)
 - Frontend Mentor - [@itsdavss](https://www.frontendmentor.io/profile/itsdavss)
