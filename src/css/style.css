@@ -33,9 +33,44 @@ main {
     width: 300px;
 }
 
-.info .image-equilibrium {
-    width: 300px;
+.image-equilibrium {
+    position: relative;
+    display: flex;
+}
+
+.image-equilibrium .image {
+    width: 100%;
+    height: 100%;
     border-radius: 10px;
+}
+
+.image-equilibrium::before {
+    content: '';
+    background-color: cyan;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.image-equilibrium::after{
+    content: '';
+    background: url(../images/icon-view.svg) no-repeat center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.image-equilibrium:hover::before{
+    opacity: 0.4;
+}
+
+.image-equilibrium:hover::after {
+    opacity: 1;
 }
 
 /* --------------- INFO TEXT --------------- */
@@ -51,7 +86,7 @@ main {
 }
 
 .info-text h1:hover {
-    color: var(--cyan);
+    color: var(--primary-medium);
     cursor: pointer;
 }
 
@@ -59,7 +94,7 @@ main {
     margin-top: 20px;
     font-size: 18px;
     font-weight: 300;
-    color: var(--soft-blue);
+    color: var(--primary-soft);
 }
 
 .info-nft {
@@ -77,12 +112,12 @@ main {
 }
 
 .nft-value p {
-    color: var(--cyan);
+    color: var(--primary-medium);
     font-weight: 400;
 }
 
 .nft-countdown p {
-    color: var(--soft-blue);
+    color: var(--primary-soft);
     font-weight: 300;
 }
 
@@ -104,7 +139,7 @@ main {
 }
 
 .info-creator p {  
-    color: var(--soft-blue);
+    color: var(--primary-soft);
     font-weight: 300;
 }
 
@@ -113,6 +148,6 @@ main {
 }
 
 .info-creator span:hover {
-    color: var(--cyan);
+    color: var(--primary-medium);
     cursor: pointer;
 }

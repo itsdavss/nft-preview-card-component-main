@@ -8,6 +8,7 @@ Esse foi a resolução do desafio [NFT preview card component challenge do Front
   - [Desafio](#desafio)
   - [Screenshots](#screenshots)
 - [Meu processo](#meu-processo)
+  - [Dificuldades e aprendizados](#dificuldades-e-aprendizados)
   - [Desenvolvido com](#desenvolvido-com)
 - [Autor](#autor)
 
@@ -18,11 +19,18 @@ Esse foi a resolução do desafio [NFT preview card component challenge do Front
 #### Design do desktop
 ![](design/desktop-design.jpg)
 
+#### Design ativo
+![](design/active-states.jpg)
+
 ### Screenshots
 
 ![](screenshots/design_desktop.png)
 
 ## Meu processo
+
+### Dificuldades e aprendizados
+
+Minha única dificuldade foi em adicionar o active na imagem do nft, pois não havia pensando em utilizar os pseudo-elementos para isso. O resto do desenvolvimento foi bem tranquilo e sem nenhuma outra dificuldade
 
 ### Desenvolvido com
 
