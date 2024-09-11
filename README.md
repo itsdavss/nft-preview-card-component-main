@@ -41,5 +41,5 @@ Minha única dificuldade foi em adicionar o active na imagem do nft, pois não h
 ## Autor
 
 - GitHub - [itsdavss](https://github.com/itsdavss)
-- Meu portfólio - [Davi Oliveira](https://itsdavss.github.io/portfolio-davi/)
+- Meu portfólio - [Davi Oliveira](https://itsdavss.github.io/portfolio/)
 - Frontend Mentor - [@itsdavss](https://www.frontendmentor.io/profile/itsdavss)
