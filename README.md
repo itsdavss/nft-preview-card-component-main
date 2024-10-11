@@ -2,7 +2,7 @@
 
 Esse foi a resolução do desafio [NFT preview card component challenge do Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U).
 
-## Table of contents
+## Tabela de conteúdos
 
 - [Visão geral](#visão-geral)
   - [Desafio](#desafio)
